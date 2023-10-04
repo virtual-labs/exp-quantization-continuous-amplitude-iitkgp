@@ -32,16 +32,16 @@ A discrete time signal is the sampled version of the continuous-time signal, whi
                                     and 
                                     its quantized version is fq(t). Then e(t) lies within the range ±Δ/2. The range of the analog signal that can be covered by
                                     b bits within above error range, R  = 2b.Δ</p>
-                                <p class="heading-content">If the quantization error is uniformly distributed about ±Δ/2 then <p style="text-align:center">`p(e)=1/Delta`</p>
+                                <p class="heading-content">If the quantization error is uniformly distributed about ±Δ/2 then <p style="text-align:center">`p(e)=1/Δ`</p>
                                 <p class="heading-content">Then Mean Square Error (MSE) for the quantization process, also known as quantization noise power is given by 
-                                <p style="text-align:">`Nq=int_ (-Delta/2) ^ (+Delta/2) 1/Delta e^2(t)de=Delta^2/12`</p>
+                                <p style="text-align:">`Nq=int_ (-Δ/2) ^ (+Δ/2) 1/Δ e^2(t)de=Δ^2/12`</p>
                                 <p class="heading-content">Now, if the range or maximum excursion of the analog signal is fixed then we can write,
-                                <p style="text-align:center">`Delta=R/2^b`</p>
+                                <p style="text-align:center">`Δ=R/2^b`</p>
                                 <p class="heading-content">We can see that increasing the value of b or the no. of bits Nq decreases</p>
                                  <p class="heading-content">Let us further investigate the effect of no. of bits used in quantization by assuming the input
                                     signal is sinusoidal with amplitude A.</p>
                                 <p style="text-align:center">`s=A^2/2`</p>
-                                <p class="heading-content">Also, R = 2A thus<p style="text-align:center">`Delta=A/2^(b-1)`</p>
+                                <p class="heading-content">Also, R = 2A thus<p style="text-align:center">`Δ=A/2^(b-1)`</p>
                                 <p class="heading-content">Substituting, Signal to Noise Ratio, SNR = 10 log10 S/N_4= 10log10 (6.22b – 2) ≈ 6.b dB </p>
                                 <p class="heading-content">Thus each additional bit improves SNR by 6 dB</p>
 
