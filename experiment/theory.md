@@ -16,7 +16,7 @@ The principal objective of this experiment is to understand the principle of qua
 
 A discrete time signal is the sampled version of the continuous-time signal, which can theoretically still take on any value within a certain range of values. Thus the next step to convert a discrete-time signal to a digital signal is by restricting the amplitude to certain fixed values from a discrete set. This process is known as quantization and the number of elements in the discrete set is known as the quantization levels. The quantized signal loses information due to rounding-off and thus are only an approximation to the continuous-time signals. The difference between the quantized signal and the continuous amplitude signal is known as quantization noise
 <p class="heading-content">A sample input-output characteristic of an uniform quantizer is shown in Fig. 1 
-                                    below.</p><center><img src="../images/img/figexpt1a.png" style="height:50%;width:50%;" align="center" /></center>
+                                    below.</p><center><img src="/images/figexpt1a.png" style="height:50%;width:50%;" align="center" /></center>
                                 <p class="heading-content">Here y is the continuous amplitude of the signal within the range of [-4,4]. 
                                     Any value less than -4, is mapped to the digit d1. Any value between the range [-4,-3] is mapped to the digit d2.
                                     Any value within the range of [1,2] is mapped to the digit d7. This kind of quantizer is known 
