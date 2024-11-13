@@ -2,12 +2,29 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the term used to describe the range of an A/D converter for bipolar signals?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Full scale",
+        "b": "FSR",
+        "c": "Full-scale region",
+        "d": "FS"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the term used to describe the range of an A/D converter for uni-polar signals?",
+      "answers": {
+        "a": "Full scale",
+        "b": "FSR",
+        "c": "Full-scale region",
+        "d": "FSS"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +36,46 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In the practical A/D converters, if the first transition may not occur at exactly + 1/2 LSB, then such kind of error is known as ____________",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Scale-factor error",
+        "b": "Offset error",
+        "c": "Linearity error",
+        "d": "All of the mentioned"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In the practical A/D converters, if the difference between the values at which the first transition and the last transition occur is not equal to FS – 2LSB, then such error is known as _________",
+      "answers": {
+        "a": "Scale-factor error",
+        "b": "Offset error",
+        "c": "Linearity error",
+        "d": "All of the mentioned"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In the practical A/D converters, if the differences between transition values are not all equal or uniformly changing, then such error is known as?",
+      "answers": {
+        "a": "Scale-factor error",
+        "b": "Offset error",
+        "c": "Linearity error",
+        "d": "All of the mentioned"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
